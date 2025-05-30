@@ -1,2 +1,2 @@
 # llamafinetuning
-Finetuning Llama 2B with my RTX4060
+Finetuning an 2B LLM with my RTX4060
