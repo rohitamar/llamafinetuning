@@ -7,4 +7,4 @@ I tried ministral/mistral-3b-instruct, Llama2-3b-hf, and Qwen3-7b on datasets: [
 I trained GPT2 on a GCP VM. Unfortunately, I couldn't use the VM for any of the other models that I mentioned (including Qwen2-0.5B-Instruct) due to an [version incompatibility issue between PyTorch and HuggingFace](https://github.com/huggingface/transformers/pull/38328). Hence, for Qwen2-0.5B-Instruct, I only used 2000 samples to train the model. It still beat GPT2 by 1% on the validation dataset even though GPT2 was trained on nearly 32 times more data. 
 
 Here's the Qwen's training loss curve:
-![Qwen training loss curve](https://github.com/rohitamar/llamafinetuning/blob/main/imggraph.png)
+![Qwen training loss curve](https://github.com/rohitamar/llamafinetuning/blob/main/graph.png)
